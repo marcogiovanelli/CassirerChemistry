@@ -68,7 +68,7 @@
       <file>cms-german.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
@@ -87,9 +87,7 @@
       <file>CassirerChemistry.bcf</file>
     </requires>
     <requires type="editable">
-      <file>biblatex.bib</file>
-      <file>cvb.bib</file>
-      <file>cvbconf.bib</file>
+      <file>CassirerChemistry.bib</file>
     </requires>
   </external>
 </requests>
