@@ -23,7 +23,152 @@
 
 
 \refsection{0}
+  \datalist[list]{shorthand:shorthand/global//global/global}
+    \entry{ECN}{book}{skipbib=true}
+      \name{author}{1}{}{%
+        {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
+           family={Cassirer},
+           familyi={C\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=a4bd0631754a435d0a346e0e2af4e67c}{%
+           family={Köhnke},
+           familyi={K\bibinitperiod},
+           given={Klaus\bibnamedelima Christian},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=71115552249ee613c1dfa423e3487a75}{%
+           family={Krois},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cc3f465440a2ae781263ac48e6b71139}{%
+           family={Schwemmer},
+           familyi={S\bibinitperiod},
+           given={Oswald},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Meiner}%
+      }
+      \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{bibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{editorbibnamehash}{6efa003364255ad27b14535b9e4faa40}
+      \strng{editornamehash}{9edbc1946636f489633cc86b5ee05a45}
+      \strng{editorfullhash}{9edbc1946636f489633cc86b5ee05a45}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{endyear}{2022}
+      \field{langid}{german}
+      \field{shorthand}{ECN}
+      \field{title}{Nachgelassene Manuskripte und Texte}
+      \field{volumes}{19}
+      \field{year}{1995}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ECW}{book}{skipbib=true}
+      \name{author}{1}{}{%
+        {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
+           family={Cassirer},
+           familyi={C\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6f02e83c28f7e177018635e731aa293a}{%
+           family={Recki},
+           familyi={R\bibinitperiod},
+           given={Birgit},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Meiner}%
+      }
+      \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{bibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{editorbibnamehash}{6f02e83c28f7e177018635e731aa293a}
+      \strng{editornamehash}{6f02e83c28f7e177018635e731aa293a}
+      \strng{editorfullhash}{6f02e83c28f7e177018635e731aa293a}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{endyear}{2009}
+      \field{langid}{german}
+      \field{shorthand}{ECW}
+      \field{subtitle}{Hamburger Ausgabe}
+      \field{title}{Gesammelte Werke}
+      \field{volumes}{26}
+      \field{year}{1998}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
   \datalist[entry]{cms/global//global/global}
+    \entry{Arnesano2025}{article}{}
+      \name{author}{2}{}{%
+        {{hash=adca8df1375112496666e0107ea08dc5}{%
+           family={Arnesano},
+           familyi={A\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=11b10e57445da15af3f55a201b964147}{%
+           family={Natile},
+           familyi={N\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{04dcddfe15d2e6fd1a88e44269cbb26a}
+      \strng{fullhash}{04dcddfe15d2e6fd1a88e44269cbb26a}
+      \strng{bibnamehash}{04dcddfe15d2e6fd1a88e44269cbb26a}
+      \strng{authorbibnamehash}{04dcddfe15d2e6fd1a88e44269cbb26a}
+      \strng{authornamehash}{04dcddfe15d2e6fd1a88e44269cbb26a}
+      \strng{authorfullhash}{04dcddfe15d2e6fd1a88e44269cbb26a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Foundations of Chemistry}
+      \field{langid}{english}
+      \field{title}{Lothar Meyer’s contribution to the transition between the early (1869) and later (1872) formulation of Mendeleev’s periodic table}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{341\bibrangedash 356}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s10698-025-09553-1
+      \endverb
+    \endentry
     \entry{Bensaude-Vincent2009a}{article}{}
       \name{author}{1}{}{%
         {{hash=4e2830d1d267677926747bcb6725548e}{%
@@ -31,9 +176,6 @@
            familyi={B\bibinithyphendelim V\bibinitperiod},
            given={Bernadette},
            giveni={B\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Oxford}%
       }
       \strng{namehash}{4e2830d1d267677926747bcb6725548e}
       \strng{fullhash}{4e2830d1d267677926747bcb6725548e}
@@ -60,6 +202,42 @@
       \verb{doi}
       \verb 10.1016/j.shpsa.2009.09.002
       \endverb
+    \endentry
+    \entry{Bensaude-Vincent2016a}{book}{}
+      \name{author}{2}{}{%
+        {{hash=4e2830d1d267677926747bcb6725548e}{%
+           family={Bensaude-Vincent},
+           familyi={B\bibinithyphendelim V\bibinitperiod},
+           given={Bernadette},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9bec8e3cc6e3ef9a46d83f79d80f910f}{%
+           family={Telkes-Klein},
+           familyi={T\bibinithyphendelim K\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Honoré Champion}%
+      }
+      \strng{namehash}{5b6bab48bb9bc55d1bb7c2bc92e24dc3}
+      \strng{fullhash}{5b6bab48bb9bc55d1bb7c2bc92e24dc3}
+      \strng{bibnamehash}{5b6bab48bb9bc55d1bb7c2bc92e24dc3}
+      \strng{authorbibnamehash}{5b6bab48bb9bc55d1bb7c2bc92e24dc3}
+      \strng{authornamehash}{5b6bab48bb9bc55d1bb7c2bc92e24dc3}
+      \strng{authorfullhash}{5b6bab48bb9bc55d1bb7c2bc92e24dc3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Les identités multiples d'Émile Meyerson}
+      \field{year}{2016}
+      \field{dateera}{ce}
     \endentry
     \entry{Berthelot1885}{book}{}
       \name{author}{1}{}{%
@@ -174,6 +352,7 @@
       \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -183,6 +362,35 @@
       \field{shorttitle}{Das Erkenntnisproblem}
       \field{title}{Das Erkenntnisproblem in der Philosophie und Wissenschaft der neueren Zeit}
       \field{volume}{1}
+      \field{year}{1906}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Cassirer1907}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
+           family={Cassirer},
+           familyi={C\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{bibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\repr{ECN}{\VP{8}{3-16}}}
+      \field{langid}{german}
+      \field{title}{Substanzbegriff und Funktionsbegriff}
+      \field{titleaddon}{Probevorlesung an der Königlichen Friedrich-Wilhelms-Universität in Berlin (26.\ Juli 1906)}
       \field{year}{1906}
       \field{dateera}{ce}
     \endentry
@@ -206,7 +414,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -241,7 +449,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -267,7 +475,7 @@
         {Berlin}%
       }
       \list{publisher}{1}{%
-        {Bruno Cassirer}%
+        {B.~Cassirer}%
       }
       \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
@@ -275,14 +483,14 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{addendum}{\repr{ECW}{\V{2}}}
+      \field{addendum}{\repr{ECW}{\V{2--3}}}
       \field{edition}{2}
       \field{langid}{german}
       \field{shorttitle}{Das Erkenntnisproblem}
@@ -311,7 +519,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -333,15 +541,21 @@
            given={Ernst},
            giveni={E\bibinitperiod}}}%
       }
-      \name{editor}{1}{}{%
-        {{hash=4e15517ee35cfbb0201172a4b580b9dd}{%
+      \name{translator}{2}{}{%
+        {{hash=caa78a762e380559f33618860a128b3d}{%
            family={Swabey},
            familyi={S\bibinitperiod},
-           given={Marie\bibnamedelima Taylor},
-           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+           given={William\bibnamedelima Curtis},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=dc15301e8dc3e2c6fcc67c850e1bd688}{%
+           family={Swabey},
+           familyi={S\bibinitperiod},
+           given={Marie\bibnamedelima Collins},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Chicago, London}%
+      \list{location}{2}{%
+        {Chicago}%
+        {London}%
       }
       \list{publisher}{1}{%
         {Open Court}%
@@ -352,10 +566,10 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{editorbibnamehash}{4e15517ee35cfbb0201172a4b580b9dd}
-      \strng{editornamehash}{4e15517ee35cfbb0201172a4b580b9dd}
-      \strng{editorfullhash}{4e15517ee35cfbb0201172a4b580b9dd}
-      \field{extraname}{6}
+      \strng{translatorbibnamehash}{ad2dd1af3bfbe0fb4c8bd6c2bc898eb1}
+      \strng{translatornamehash}{ad2dd1af3bfbe0fb4c8bd6c2bc898eb1}
+      \strng{translatorfullhash}{ad2dd1af3bfbe0fb4c8bd6c2bc898eb1}
+      \field{extraname}{7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -387,7 +601,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -415,7 +629,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{1}
@@ -448,7 +662,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{2}
@@ -467,7 +681,7 @@
       \field{pages}{207\bibrangedash 232}
       \range{pages}{26}
     \endentry
-    \entry{ECN}{book}{}
+    \entry{ECN}{book}{skipbib=true}
       \name{author}{1}{}{%
         {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
            family={Cassirer},
@@ -475,12 +689,22 @@
            given={Ernst},
            giveni={E\bibinitperiod}}}%
       }
-      \name{editor}{1}{}{%
+      \name{editor}{3}{}{%
+        {{hash=a4bd0631754a435d0a346e0e2af4e67c}{%
+           family={Köhnke},
+           familyi={K\bibinitperiod},
+           given={Klaus\bibnamedelima Christian},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
         {{hash=71115552249ee613c1dfa423e3487a75}{%
            family={Krois},
            familyi={K\bibinitperiod},
            given={John\bibnamedelima Michael},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cc3f465440a2ae781263ac48e6b71139}{%
+           family={Schwemmer},
+           familyi={S\bibinitperiod},
+           given={Oswald},
+           giveni={O\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Hamburg}%
@@ -494,10 +718,10 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{editorbibnamehash}{71115552249ee613c1dfa423e3487a75}
-      \strng{editornamehash}{71115552249ee613c1dfa423e3487a75}
-      \strng{editorfullhash}{71115552249ee613c1dfa423e3487a75}
-      \field{extraname}{10}
+      \strng{editorbibnamehash}{6efa003364255ad27b14535b9e4faa40}
+      \strng{editornamehash}{9edbc1946636f489633cc86b5ee05a45}
+      \strng{editorfullhash}{9edbc1946636f489633cc86b5ee05a45}
+      \field{extraname}{11}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -543,7 +767,7 @@
       \strng{editorbibnamehash}{6f02e83c28f7e177018635e731aa293a}
       \strng{editornamehash}{6f02e83c28f7e177018635e731aa293a}
       \strng{editorfullhash}{6f02e83c28f7e177018635e731aa293a}
-      \field{extraname}{11}
+      \field{extraname}{12}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -588,7 +812,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{french}
-      \field{subtitle}{Essai sur l' evolution d'une idée}
+      \field{subtitle}{Essai sur l'évolution d'une idée}
       \field{title}{Le mixte et la combinaison chimique}
       \field{year}{1902}
       \field{dateera}{ce}
@@ -653,6 +877,38 @@
       \field{year}{1709}
       \field{dateera}{ce}
     \endentry
+    \entry{French2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f1d2812223929fe611995189d952a2cf}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{f1d2812223929fe611995189d952a2cf}
+      \strng{fullhash}{f1d2812223929fe611995189d952a2cf}
+      \strng{bibnamehash}{f1d2812223929fe611995189d952a2cf}
+      \strng{authorbibnamehash}{f1d2812223929fe611995189d952a2cf}
+      \strng{authornamehash}{f1d2812223929fe611995189d952a2cf}
+      \strng{authorfullhash}{f1d2812223929fe611995189d952a2cf}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{subtitle}{Metaphysics and Representation}
+      \field{title}{The Structure of the World}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
     \entry{Laclos2009a}{book}{}
       \name{author}{1}{}{%
         {{hash=6faf55ebe7eacf4cec00a01030054277}{%
@@ -680,9 +936,41 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{french}
-      \field{title}{Le cheminement de la pensee selon Émile Meyerson}
+      \field{title}{Le cheminement de la pensée selon Émile Meyerson}
       \field{year}{2009}
       \field{dateera}{ce}
+    \endentry
+    \entry{Heis2014a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2bb938a632dae89603242f9cdba9041c}{%
+           family={Heis},
+           familyi={H\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2bb938a632dae89603242f9cdba9041c}
+      \strng{fullhash}{2bb938a632dae89603242f9cdba9041c}
+      \strng{bibnamehash}{2bb938a632dae89603242f9cdba9041c}
+      \strng{authorbibnamehash}{2bb938a632dae89603242f9cdba9041c}
+      \strng{authornamehash}{2bb938a632dae89603242f9cdba9041c}
+      \strng{authorfullhash}{2bb938a632dae89603242f9cdba9041c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{day}{15}
+      \field{journaltitle}{HOPOS}
+      \field{month}{4}
+      \field{number}{2}
+      \field{subtitle}{A Detailed Analysis}
+      \field{title}{Ernst {C}assirer's \bt{Substanzbegriff und Funktionsbegriff}}
+      \field{volume}{4}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{241\bibrangedash 270}
+      \range{pages}{30}
     \endentry
     \entry{Kopp1843}{book}{}
       \name{author}{1}{}{%
@@ -746,39 +1034,6 @@
       \field{edition}{3}
       \field{title}{{Vorträge über die Entwicklungsgeschichte der Chemie von Lavoisier bis zur Gegenwart}}
       \field{year}{1902}
-    \endentry
-    \entry{Lasswitz1890}{book}{}
-      \name{author}{1}{}{%
-        {{hash=275b33425afd65f2a533dc5e45d0af9a}{%
-           family={Lasswitz},
-           familyi={L\bibinitperiod},
-           given={Kurd},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{location}{2}{%
-        {Hamburg}%
-        {Leipzig}%
-      }
-      \list{publisher}{1}{%
-        {Voss}%
-      }
-      \strng{namehash}{275b33425afd65f2a533dc5e45d0af9a}
-      \strng{fullhash}{275b33425afd65f2a533dc5e45d0af9a}
-      \strng{bibnamehash}{275b33425afd65f2a533dc5e45d0af9a}
-      \strng{authorbibnamehash}{275b33425afd65f2a533dc5e45d0af9a}
-      \strng{authornamehash}{275b33425afd65f2a533dc5e45d0af9a}
-      \strng{authorfullhash}{275b33425afd65f2a533dc5e45d0af9a}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{german}
-      \field{title}{Geschichte der Atomistik}
-      \field{volumes}{2}
-      \field{year}{1890}
-      \field{dateera}{ce}
     \endentry
     \entry{Meyer1884}{book}{}
       \name{author}{1}{}{%
@@ -867,45 +1122,12 @@
       \field{journaltitle}{Revue de métaphysique et de morale}
       \field{langid}{french}
       \field{number}{1}
-      \field{title}{L'histoire du probléme de la connaissance de M.~E.~Cassirer}
+      \field{title}{L'histoire du problème de la connaissance de M.~E.~Cassirer}
       \field{volume}{19}
       \field{year}{1911}
       \field{dateera}{ce}
       \field{pages}{100\bibrangedash 129}
       \range{pages}{30}
-    \endentry
-    \entry{Meyerson1912}{book}{}
-      \name{author}{1}{}{%
-        {{hash=7b6607e6cf1818066d3ff7af9843ba6d}{%
-           family={Meyerson},
-           familyi={M\bibinitperiod},
-           given={Émile},
-           giveni={É\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Paris}%
-      }
-      \list{publisher}{1}{%
-        {Alcan}%
-      }
-      \strng{namehash}{7b6607e6cf1818066d3ff7af9843ba6d}
-      \strng{fullhash}{7b6607e6cf1818066d3ff7af9843ba6d}
-      \strng{bibnamehash}{7b6607e6cf1818066d3ff7af9843ba6d}
-      \strng{authorbibnamehash}{7b6607e6cf1818066d3ff7af9843ba6d}
-      \strng{authornamehash}{7b6607e6cf1818066d3ff7af9843ba6d}
-      \strng{authorfullhash}{7b6607e6cf1818066d3ff7af9843ba6d}
-      \field{extraname}{3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{langid}{french}
-      \field{title}{Identité et réalité}
-      \field{year}{1912}
-      \field{dateera}{ce}
     \endentry
     \entry{Natorp1910a}{book}{}
       \name{author}{1}{}{%
@@ -915,8 +1137,9 @@
            given={Paul},
            giveni={P\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Leipzig Berlin}%
+      \list{location}{2}{%
+        {Leipzig}%
+        {Berlin}%
       }
       \list{publisher}{1}{%
         {Teubner}%
@@ -968,6 +1191,47 @@
       \field{title}{Die Ziele der physikalischen Chemie}
       \field{year}{1896}
       \field{dateera}{ce}
+    \endentry
+    \entry{Norton2024}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=88e2a71484fcac30e91c45f2ef332a16}{%
+           family={Norton},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Calgary}%
+      }
+      \list{publisher}{1}{%
+        {University of Calgary Press}%
+      }
+      \strng{namehash}{88e2a71484fcac30e91c45f2ef332a16}
+      \strng{fullhash}{88e2a71484fcac30e91c45f2ef332a16}
+      \strng{bibnamehash}{88e2a71484fcac30e91c45f2ef332a16}
+      \strng{authorbibnamehash}{88e2a71484fcac30e91c45f2ef332a16}
+      \strng{authornamehash}{88e2a71484fcac30e91c45f2ef332a16}
+      \strng{authorfullhash}{88e2a71484fcac30e91c45f2ef332a16}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Lar	ge-Scale Structure of Inductive Inference}
+      \field{chapter}{11}
+      \field{isbn}{978-1-77385-541-7}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{series}{BSPS Open}
+      \field{title}{The Determination of Atomic Weights}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{297\bibrangedash 330}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1515/9781773855424-015
+      \endverb
     \endentry
     \entry{Ostwald1906Leitlinien}{book}{}
       \name{author}{1}{}{%
@@ -1030,9 +1294,6 @@
       \field{dateera}{ce}
       \field{pages}{265\bibrangedash 302}
       \range{pages}{38}
-      \verb{doi}
-      \verb 10.
-      \endverb
     \endentry
     \entry{Reck2020}{incollection}{}
       \name{author}{1}{}{%
@@ -1077,8 +1338,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{The Prehistory of Mathematical Structuralism}
       \field{langid}{english}
-      \field{subtitle}{Structuralist Transformation of Mathematics}
-      \field{title}{Cassirer’s Reception of Dedekind and the Structuralist Transformation of Mathematics}
+      \field{title}{Cassirer's Reception of Dedekind and the Structuralist Transformation of Mathematics}
       \field{year}{2020}
       \field{dateera}{ce}
       \field{pages}{329\bibrangedash 351}
@@ -1099,9 +1359,8 @@
         {Tübingen}%
         {Leipzig}%
       }
-      \list{publisher}{2}{%
-        {Mohr}%
-        {Siebeck}%
+      \list{publisher}{1}{%
+        {J.~C.~B. Mohr (Paul Siebeck)}%
       }
       \strng{namehash}{25daf2fccc836b307a5efc087554fe4b}
       \strng{fullhash}{25daf2fccc836b307a5efc087554fe4b}
@@ -1119,6 +1378,120 @@
       \field{title}{Die Grenzen der naturwissenschaftlichen Begriffsbildung. Eine logische Einleitung in die historischen Wissenschaften}
       \field{year}{1902}
       \field{dateera}{ce}
+    \endentry
+    \entry{Rocke1984}{book}{}
+      \name{author}{1}{}{%
+        {{hash=00a9f908d9fd03e4566e134df84a5bb1}{%
+           family={Rocke},
+           familyi={R\bibinitperiod},
+           given={Alan\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Columbus}%
+      }
+      \list{publisher}{1}{%
+        {Ohio State University Press}%
+      }
+      \strng{namehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{fullhash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{bibnamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authorbibnamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authornamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authorfullhash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{pagetotal}{xviii+386}
+      \field{subtitle}{From Dalton to Cannizzaro}
+      \field{title}{Chemical Atomism in the Nineteenth Century}
+      \field{year}{1984}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Rocke2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=00a9f908d9fd03e4566e134df84a5bb1}{%
+           family={Rocke},
+           familyi={R\bibinitperiod},
+           given={Alan\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Chicago}%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{fullhash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{bibnamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authorbibnamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authornamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authorfullhash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-226-72332-7}
+      \field{langid}{english}
+      \field{pagetotal}{xxvi+375}
+      \field{series}{Synthesis}
+      \field{subtitle}{Kekulé, Kopp, and the Scientific Imagination}
+      \field{title}{Image and Reality}
+      \field{year}{2010}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Rocke2021}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=00a9f908d9fd03e4566e134df84a5bb1}{%
+           family={Rocke},
+           familyi={R\bibinitperiod},
+           given={Alan\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9e46dfc9d9bb576dbb375681710a13a6}{%
+           family={Homburg},
+           familyi={H\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {n.p.}%
+      }
+      \strng{namehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{fullhash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{bibnamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authorbibnamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authornamehash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{authorfullhash}{00a9f908d9fd03e4566e134df84a5bb1}
+      \strng{editorbibnamehash}{9e46dfc9d9bb576dbb375681710a13a6}
+      \strng{editornamehash}{9e46dfc9d9bb576dbb375681710a13a6}
+      \strng{editorfullhash}{9e46dfc9d9bb576dbb375681710a13a6}
+      \field{extraname}{3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Two Factions, One Profession}
+      \field{langid}{english}
+      \field{subtitle}{Chemistry and the ‘German Model’ in the Nineteenth Century}
+      \field{title}{The Rise of Academic Laboratory Science}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{41\bibrangedash 64}
+      \range{pages}{24}
     \endentry
     \entry{Ryckman2005}{book}{}
       \name{author}{1}{}{%
@@ -1148,10 +1521,45 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{subtitle}{Philosophy in Physics 1915-1925}
+      \field{subtitle}{Philosophy in Physics 1915--1925}
       \field{title}{The Reign of Relativity}
       \field{year}{2005}
       \field{dateera}{ce}
+    \endentry
+    \entry{Schiemer2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=81a3dc6f76ae2e4111c9cde5f4f1cbca}{%
+           family={Schiemer},
+           familyi={S\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{81a3dc6f76ae2e4111c9cde5f4f1cbca}
+      \strng{fullhash}{81a3dc6f76ae2e4111c9cde5f4f1cbca}
+      \strng{bibnamehash}{81a3dc6f76ae2e4111c9cde5f4f1cbca}
+      \strng{authorbibnamehash}{81a3dc6f76ae2e4111c9cde5f4f1cbca}
+      \strng{authornamehash}{81a3dc6f76ae2e4111c9cde5f4f1cbca}
+      \strng{authorfullhash}{81a3dc6f76ae2e4111c9cde5f4f1cbca}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{day}{5}
+      \field{journaltitle}{Journal for the History of Analytical Philosophy}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Cassirer and the Structural Turn in Modern Geometry}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{182\bibrangedash 212}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.15173/jhap.v6i3.3439
+      \endverb
     \endentry
     \entry{Wurtz1879}{book}{}
       \name{author}{1}{}{%
