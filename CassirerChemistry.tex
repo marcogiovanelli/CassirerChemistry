@@ -1,37 +1,5 @@
 \documentclass[submitted,12pt]{article}
-\usepackage{chemfig}
-\usepackage{els}
-\usepackage{cassirer}
-
-\usepackage[version=4]{mhchem}
-
-\newcommand{\IRt}{\bt{Identité et réalité}\xspace}
-\newcommand{\IR}[2]{\citep[#1/#2]{Meyerson1908}}
-\renewcommand{\SF}[2]{\citep[#1/#2]{Cassirer1910}}
-\renewcommand{\DI}[2]{\citep[#1/#2]{Cassirer1936}}
-\renewcommand{\DIs}[2]{\cite[#1/#2]{Cassirer1936}}
-\renewcommand{\PSF}[2]{\citep[#1/#2]{Cassirer1929}}
-\renewcommand{\tm}{\footnote{Translation modified}}
-\renewcommand{\me}{\footnote{Emphasis mine}}
-
-
-\DeclareDocumentCommand\letterecnd{mmmmmoo}{%
-{\IfNoValueTF {#6}%
-{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}}%
-{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}\footnote{\cite[\VD{18}{#6}]{ECN}}}%
-} %
-\unspace}
-
-%(DVD)
-
-\DeclareDocumentCommand\letterecndp{mmmmmoo}{%
-{(\IfNoValueTF {#6}%
-{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}}%
-{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}\footnote{\cite[\VD{18}{#6}]{ECN}}}%
-} %
-\unspace)}
-
-
+\usepackage{cassirerchemistry}
 
 \title{Cassirer on the History and Philosophy of Chemistry: Between Meyerson and Rickert}
 %: 

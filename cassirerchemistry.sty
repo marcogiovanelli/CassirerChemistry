@@ -4,15 +4,14 @@
 %% Consolidates the parts of els.sty, addpackfix/{char,mat,bib,ref,q,com,dat,sec,ano,aut}.sty
 %% and addpackspecial/cassirer.sty that the paper actually uses.
 %%
-%% Usage: replace
-%%     \usepackage{els}
-%%     \usepackage{cassirer}
-%% with
-%%     \usepackage{cassirerchemistry}
-%% (keep \usepackage{chemfig} and \usepackage[version=4]{mhchem} in the paper).
+%% Usage: \usepackage{cassirerchemistry} is the only package the paper loads.
+%% Bibliography: CassirerChemistry.bib (same folder).
 %% Compile with pdflatex + biber.
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{cassirerchemistry}[2026/11/03 Style for CassirerChemistry.tex]
+
+% chemical structure diagrams
+\RequirePackage{chemfig}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Encoding, fonts, page layout
@@ -163,14 +162,9 @@
 
 \renewcommand*{\finallistdelim}{\addslash}
 
-% "my emphasis" / "translation modified" (printed only after a page number;
-% \me and \tm are redefined in the paper's preamble)
-\makeatletter
-\let\passifpages\@firstofone
-\NumCheckSetup{\let\passifpages\@gobble}
-\makeatother
-\newcommand*{\me}{\passifpages{; my emphasis}}
-\newcommand{\tm}{\passifpages{; translation modified}}
+% "emphasis mine" / "translation modified" as footnotes
+\newcommand{\me}{\footnote{Emphasis mine}}
+\newcommand{\tm}{\footnote{Translation modified}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Hyperlinks and cross-references
@@ -368,23 +362,44 @@
 \renewcommand{\Affilfont}{\small}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  Cassirer: citation shortcuts and terminology
-%  (\SF, \DI, \DIs and \PSF are redefined in the paper's preamble)
+%  Cassirer and Meyerson: citation shortcuts and terminology
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\SF}[2]{(\cite[#1]{Cassirer1910}; tr.\ \cite*[#2]{Cassirer1923})\xspace}
+% original/translation page pairs: \SF{orig}{tr} -> (Cassirer 1910, orig/tr)
+\newcommand{\SF}[2]{\citep[#1/#2]{Cassirer1910}}
 \newcommand{\SFs}[2]{\cite[#1]{Cassirer1910}; tr.\ \cite*[#2]{Cassirer1923}\xspace}
 \newcommand{\ER}[2]{(\cite[#1]{Cassirer1921}; tr.\ \cite*[#2]{Cassirer1923})\xspace}
-\newcommand{\DI}[2]{(\cite[#1]{Cassirer1936}; tr.\ \cite*[#2]{Cassirer1956})\xspace}
-\newcommand{\DIs}[2]{\cite[#1]{Cassirer1936}; tr.\ \cite*[#2]{Cassirer1956}\xspace}
-\newcommand{\PSF}[2]{(\cite[#1]{Cassirer1929}; tr.\ \cite*[#2]{Cassirer1957})\xspace}
+\newcommand{\DI}[2]{\citep[#1/#2]{Cassirer1936}}
+\newcommand{\DIs}[2]{\cite[#1/#2]{Cassirer1936}}
+\newcommand{\PSF}[2]{\citep[#1/#2]{Cassirer1929}}
+\newcommand{\IR}[2]{\citep[#1/#2]{Meyerson1908}}
 
 \newcommand{\SFt}{\citetitle{Cassirer1910}\xspace}
 \newcommand{\EPt}{\citetitle{Cassirer1906a}\xspace}
+\newcommand{\IRt}{\bt{Identité et réalité}\xspace}
 
 \newcommand{\FCs}{function-concepts\xspace}
 \newcommand{\SCs}{substance-concepts\xspace}
 \newcommand{\SB}{\german{Substanzbegriff}\xspace}
 
+% Meyerson--Cassirer correspondence, cited after ECN, Vol. 18:
+% \letterecnd{From}{To}{day}{month}{year}[doc] (with parentheses: \letterecndp)
+\DeclareDocumentCommand\letterecnd{mmmmmoo}{%
+{\IfNoValueTF {#6}%
+{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}}%
+{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}\footnote{\cite[\VD{18}{#6}]{ECN}}}%
+} %
+\unspace}
+
+\DeclareDocumentCommand\letterecndp{mmmmmoo}{%
+{(\IfNoValueTF {#6}%
+{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}}%
+{#1 to #2,  \shortmoam\formatdate{#3}{#4}{#5}\footnote{\cite[\VD{18}{#6}]{ECN}}}%
+} %
+\unspace)}
+
 \frenchspacing
+
+% chemical formulae (loaded last, as in the original preamble)
+\RequirePackage[version=4]{mhchem}
 
 \endinput
