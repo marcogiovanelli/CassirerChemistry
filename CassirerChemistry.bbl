@@ -174,7 +174,6 @@
       \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -184,40 +183,6 @@
       \field{shorttitle}{Das Erkenntnisproblem}
       \field{title}{Das Erkenntnisproblem in der Philosophie und Wissenschaft der neueren Zeit}
       \field{volume}{1}
-      \field{year}{1906}
-      \field{dateera}{ce}
-    \endentry
-    \entry{Cassirer1906}{book}{}
-      \name{author}{1}{}{%
-        {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
-           family={Cassirer},
-           familyi={C\bibinitperiod},
-           given={Ernst},
-           giveni={E\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Giessen}%
-      }
-      \list{publisher}{1}{%
-        {Töpelmann}%
-      }
-      \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{bibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{addendum}{\repr{ECW}{\VP{2}{3-36}}}
-      \field{langid}{german}
-      \field{title}{Der kritische Idealismus und die Philosophie des `gesunden Menschenverstandes'}
       \field{year}{1906}
       \field{dateera}{ce}
     \endentry
@@ -241,7 +206,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -276,7 +241,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -310,7 +275,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -346,7 +311,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{6}
+      \field{extraname}{5}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -390,7 +355,7 @@
       \strng{editorbibnamehash}{4e15517ee35cfbb0201172a4b580b9dd}
       \strng{editornamehash}{4e15517ee35cfbb0201172a4b580b9dd}
       \strng{editorfullhash}{4e15517ee35cfbb0201172a4b580b9dd}
-      \field{extraname}{7}
+      \field{extraname}{6}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -422,7 +387,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{8}
+      \field{extraname}{7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -450,7 +415,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{9}
+      \field{extraname}{8}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -498,7 +463,7 @@
       \strng{editorbibnamehash}{71115552249ee613c1dfa423e3487a75}
       \strng{editornamehash}{71115552249ee613c1dfa423e3487a75}
       \strng{editorfullhash}{71115552249ee613c1dfa423e3487a75}
-      \field{extraname}{10}
+      \field{extraname}{9}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -544,7 +509,7 @@
       \strng{editorbibnamehash}{6f02e83c28f7e177018635e731aa293a}
       \strng{editornamehash}{6f02e83c28f7e177018635e731aa293a}
       \strng{editorfullhash}{6f02e83c28f7e177018635e731aa293a}
-      \field{extraname}{11}
+      \field{extraname}{10}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -685,7 +650,7 @@
       \field{year}{2009}
       \field{dateera}{ce}
     \endentry
-    \entry{Kopp1869}{book}{}
+    \entry{Kopp1843}{book}{}
       \name{author}{1}{}{%
         {{hash=96df1ee2cdbdb16ccbd98bbc9397ba3a}{%
            family={Kopp},
@@ -711,10 +676,11 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{langid}{german}
-      \field{title}{Beiträge zur Geschichte der Chemie}
-      \field{volumes}{2}
-      \field{year}{1869}
+      \field{endyear}{1847}
+      \field{title}{Geschichte der Chemie}
+      \field{volumes}{4}
+      \field{year}{1843}
+      \field{enddateera}{ce}
       \field{dateera}{ce}
     \endentry
     \entry{Ladenburg1902}{book}{}
