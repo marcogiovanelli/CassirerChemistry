@@ -1,0 +1,390 @@
+%% cassirerchemistry.sty
+%% Self-contained style file for CassirerChemistry.tex
+%% (Broggio & Giovanelli, "Cassirer on the History and Philosophy of Chemistry").
+%% Consolidates the parts of els.sty, addpackfix/{char,mat,bib,ref,q,com,dat,sec,ano,aut}.sty
+%% and addpackspecial/cassirer.sty that the paper actually uses.
+%%
+%% Usage: replace
+%%     \usepackage{els}
+%%     \usepackage{cassirer}
+%% with
+%%     \usepackage{cassirerchemistry}
+%% (keep \usepackage{chemfig} and \usepackage[version=4]{mhchem} in the paper).
+%% Compile with pdflatex + biber.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cassirerchemistry}[2026/11/03 Style for CassirerChemistry.tex]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Encoding, fonts, page layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+
+\RequirePackage[a4paper,
+            bindingoffset=0.2in,
+            left=1in,
+            right=1in,
+            top=1in,
+            bottom=1in,
+            footskip=.25in]{geometry}
+
+\date{\vspace{-1cm}}
+
+\RequirePackage{setspace}
+\RequirePackage{graphicx}
+\RequirePackage[colorinlistoftodos,prependcaption,textsize=tiny,obeyDraft]{todonotes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Languages, quotations, typography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[german,latin,french,USenglish]{babel}
+\RequirePackage{xspace}
+\RequirePackage{xcolor}
+\RequirePackage[german=guillemets,english=american,autostyle=true,thresholdtype=words,threshold=100,autopunct=true,style=american]{csquotes}
+
+\hyphenation{Spring-er}
+\hyphenation{Des-cartes}
+\hyphenation{Mey-er-son}
+\hyphenation{Zeit-schrift}
+
+\definecolor{b}{RGB}{176,196,222}
+
+\RequirePackage{etoolbox}
+\RequirePackage{fnpct}
+\RequirePackage[letterspace=180]{microtype}
+\setlength{\emergencystretch}{2pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Mathematics
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage{mathtools}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Bibliography (biblatex-chicago, author-date)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[
+  authordate,
+  backend=biber,
+  bibencoding=utf8,
+  cmslos=false,
+  backref=false,
+  shorthandfull,
+  ibidtracker=context,
+  doi=false,
+  isbn=false,
+  giveninits=false,
+  uniquename=false,
+  minbibnames=1,
+  maxbibnames=2,
+  citereset=section,
+  date=year
+]{biblatex-chicago}
+
+\addbibresource{CassirerChemistry.bib}
+
+\setlength{\bibitemsep}{0em}
+\renewcommand*{\bibfont}{\footnotesize}
+
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat{multipostnote}{#1}
+
+\DeclareLabeldate{%
+  \field{date}
+  \field{year}
+  \field{eventdate}
+  \field{origdate}
+  \field{urldate}
+}
+
+\DefineBibliographyStrings{american}{%
+  andothers ={et\addabbrvspace al\adddot},
+}
+
+\renewbibmacro*{cite:shorthand}{%
+  \printtext[bibhyperref]{\printfield{shorthand}}%
+  \usebibmacro{cite:reinit}}
+
+\DeclareFieldFormat{titlecase}{\MakeSentenceCase*{#1}}
+\DeclareFieldFormat{titleaddon}{\MakeSentenceCase*{#1}}
+
+\renewbibmacro*{date}{%
+  \printdate
+  \iffieldundef{origyear}{%
+  }{%
+    \setunit*{\addspace}%
+    \printtext[parens]{\printorigdate}%
+  }%
+}
+
+\AtEveryBibitem{\clearfield{labelmonth}}
+\AtEveryCitekey{\clearfield{labelmonth}}
+\AtEveryBibitem{\clearfield{labelday}}
+\AtEveryCitekey{\clearfield{labelday}}
+
+\AtEveryBibitem{%
+  \clearfield{labelmonth}%
+  \clearfield{labelday}%
+  \ifentrytype{book}{\clearfield{number}\clearfield{series}\clearfield{month}\clearfield{day}}{}%
+  \ifentrytype{article}{\clearfield{number}\clearfield{month}\clearfield{day}}{}%
+  \ifentrytype{collection}{\clearfield{number}\clearfield{series}\clearfield{month}\clearfield{day}}{}%
+  \ifentrytype{incollection}{\clearfield{number}\clearfield{series}\clearfield{month}\clearfield{day}}{}%
+  \ifentrytype{inbook}{\clearfield{number}\clearfield{series}\clearfield{month}\clearfield{day}}{}%
+}
+
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}\unspace}}
+
+\renewbibmacro*{booktitle}{%
+  \ifboolexpr{
+    test {\iffieldundef{booktitle}}
+    and
+    test {\iffieldundef{booksubtitle}}
+  }
+    {}
+    {\iffieldundef{crossref}
+      {\printtext[booktitle]{%
+         \printfield[titlecase]{booktitle}%
+         \setunit{\subtitlepunct}%
+         \printfield[titlecase]{booksubtitle}}}%
+      {\bibhyperref[\thefield{crossref}]{\printtext[booktitle]{%
+         \printfield[titlecase]{booktitle}%
+         \setunit{\subtitlepunct}%
+         \printfield[titlecase]{booksubtitle}}}}
+     \newunit}%
+  \printfield{booktitleaddon}}
+
+\DefineBibliographyStrings{american}{sequens={f.},sequentes={ff.}}
+\renewcommand*{\sqspace}{}
+
+\DeclareFieldFormat[article]{number}{#1}
+
+\renewcommand*{\finallistdelim}{\addslash}
+
+% "my emphasis" / "translation modified" (printed only after a page number;
+% \me and \tm are redefined in the paper's preamble)
+\makeatletter
+\let\passifpages\@firstofone
+\NumCheckSetup{\let\passifpages\@gobble}
+\makeatother
+\newcommand*{\me}{\passifpages{; my emphasis}}
+\newcommand{\tm}{\passifpages{; translation modified}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Hyperlinks and cross-references
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{url}
+\RequirePackage{amsmath}
+\RequirePackage[citebordercolor=b,linkbordercolor=b]{hyperref}
+\hypersetup{
+  pdfauthor={Matteo Broggio and Marco Giovanelli},
+  colorlinks=true,
+  linkcolor=b,
+  linkbordercolor=b,
+  citecolor=b,
+  setpagesize=false,
+}
+\RequirePackage{cleveref}
+
+\makeatletter
+\newcommand{\etc}{\@ifnextchar.{, etc}{, etc.\xspace}}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Citation commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{xparse}
+
+\newcommand{\citep}{\parencite}
+\newcommand{\citet}{\textcite}
+% Author's (year: page)
+\newcommand{\citets}[2][]{\citeauthor{#2}'s (\citeyear{#2}\if\relax\detokenize{#1}\relax\else: #1\fi)}
+
+\DeclareCiteCommand{\citeyear}
+    {}
+    {\bibhyperref{\printdate}}
+    {\multicitedelim}
+    {}
+
+\newcommand{\fn}[1]{; fn.~#1}
+
+% volume/document locators (also used inside fields of biblatex.bib)
+\NewDocumentCommand\V{m}{Vol.\ #1}
+\NewDocumentCommand\VV{m}{Vols.~#1}
+\NewDocumentCommand\VD{mm}{Vol.\ #1, Doc.\ #2}
+\NewDocumentCommand\VDs{mm}{Vol.\ #1, Docs.\ #2}
+\NewDocumentCommand\VP{mm}{Vol.\ #1, #2}
+\NewDocumentCommand\VDP{mmm}{Vol.\ #1, Doc.\ #2, #3}
+\NewDocumentCommand\SVP{mmm}{Ser.\ #1, Vol.\ #2, #3}
+\NewDocumentCommand\D{m}{Doc.\ #1}
+\NewDocumentCommand\DD{m}{Docs.\ #1}
+\NewDocumentCommand\DP{mm}{Doc.\ #1, #2}
+
+% reprint/publication notes (used inside fields of biblatex.bib)
+\newcommand*{\repr}[2]{\autocap{r}epr.~in \cite[#2]{#1}}
+\newcommand*{\repras}[2]{\autocap{r}epr.\ as \cite[#2]{#1}}
+\newcommand*{\publ}[2]{\autocap{f}irst pub.~in \cite[#2]{#1}}
+\newcommand*{\pub}[1]{\autocap{p}ub.\ in #1}
+\newcommand*{\postumin}[2]{\autocap{p}ub.~post.\ in \cite[#2]{#1}}
+\newcommand*{\postumas}[1]{\autocap{p}ub.~post.\ as \cite{#1}}
+\newcommand*{\reprv}[2]{\repr{#1}{\V{#2}}}
+\newcommand*{\reprvp}[3]{\repr{#1}{\VP{#2}{#3}}}
+\newcommand*{\reprvd}[3]{\repr{#1}{\VD{#2}{#3}}}
+\newcommand*{\reprvdp}[4]{\repr{#1}{\VDP{#2}{#3}{#4}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Quotations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand*{\mkcitation}[1]{ #1}
+\renewcommand{\mkblockquote}[4]{\footnotesize#1#2.\xspace#3#4}
+\renewcommand{\mktextquote}[6]{#1#2#4#5#3#6}
+
+% scare quotes
+\makeatletter
+\newcommand{\scare}[1]{\@ifnextchar.{\enquote*{#1.}\@gobble}{\@ifnextchar,{\enquote*{#1,}\@gobble}{\enquote*{#1}\xspace}}}
+\makeatother
+\newcommand{\s}{\scare}
+
+% hide the original-language text of a quotation
+\newcommand{\hide}[2][]{\unspace}
+
+% direct quotation: \q{text}[citation]
+\NewDocumentCommand{\q}{mo}{%
+  \IfNoValueTF{#2}
+    {\blockquote{#1}}
+    {\blockquote[{#2}]{#1}}%
+}
+
+% translated quotation with (hidden) original: \qt{translation}{original}[citation]
+\makeatletter
+\NewDocumentCommand\qt{mmo}{%
+\IfNoValueTF {#3}%
+   {\@ifnextchar,{\blockquote{#1,}\@gobble}{\blockquote{#1}\hide{#2}}}%
+   {\blockquote[{#3}]{#1}\hide{#2}}%
+\unspace}
+\makeatother
+
+% original-language terms
+\newcommand{\latin}[1]{\textit{\selectlanguage{latin}#1}}
+\newcommand{\german}[1]{\textit{\selectlanguage{german}#1}}
+\newcommand{\french}[1]{\textit{\selectlanguage{french}#1}}
+\newcommand{\origins}[1]{\textins{\german{#1}}}
+\newcommand{\origg}[1]{(\german{#1})\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Footnotes, text shortcuts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% footnotes end with a period unless they already do
+\makeatletter
+\long\def\@makefntext#1{%
+  \parindent 1em\noindent \hb@xt@ 1.8em{\hss\@makefnmark}#1%
+  \ifnum\the\spacefactor<3000
+    \ifnum\the\spacefactor=\blx@sf@period
+    \else
+    .%
+    \fi
+  \fi}
+\makeatother
+
+\newcommand{\footnoteh}[1]{}% suppressed footnote
+
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+\newcommand{\bt}{\textit}  % book title
+\newcommand{\jt}{\textit}  % journal title
+\newcommand{\myemph}[1]{\emph{\color{black}#1}}
+\newcommand{\ls}{\emph}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Dates
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[ddmmyyyy]{datetime}
+\RequirePackage[american]{isodate}
+
+\newdateformat{am}{\monthname[\THEMONTH]\xspace\THEDAY,\xspace\THEYEAR}
+
+\renewcommand{\shortmonthname}{%
+  \ifcase\THEMONTH
+  \or Jan.\
+  \or Feb.\
+  \or Mar.\
+  \or Apr.\
+  \or May
+  \or Jun.\
+  \or Jul.\
+  \or Aug.\
+  \or Sep.\
+  \or Oct.\
+  \or Nov.\
+  \or Dec.\
+  \fi}
+\newdateformat{shortmoam}{\shortmonthname\THEDAY,\xspace\THEYEAR}
+
+\DeclareDocumentCommand\datef{mmm}{\am\formatdate{#1}{#2}{#3}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Title page, abstract, sections
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewenvironment{abstract}{\setlength{\parindent}{\z@}
+      \hrule
+      \footnotesize\vskip 10pt}{%
+      \vskip 10pt
+      \hrule
+      \vskip 20pt}
+
+\newcommand{\maybe@addperiod}[1]{%
+  #1\@addpunct{.}%
+}
+
+\RequirePackage[explicit]{titlesec}
+
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+           {-18\p@ \@plus 6\p@ \@minus 3\p@}%
+           {9\p@ \@plus 6\p@ \@minus 3\p@}%
+           {\normalsize\bfseries\boldmath}}
+
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+           {-12\p@ \@plus 6\p@ \@minus 3\p@}%
+           {4\p@ \@plus 6\p@ \@minus 3\p@}%
+           {\normalfont\normalsize\itshape}}
+
+\renewcommand\subsubsection{\@startsection{subsubsection}{2}{\z@}%
+           {-12\p@ \@plus 6\p@ \@minus 3\p@}%
+           {4\p@ \@plus 6\p@ \@minus 3\p@}%
+           {\normalfont\normalsize}}
+
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+           {3.25ex \@plus1ex \@minus.2ex}%
+           {-1em}%
+           {\normalfont\normalsize\itshape\maybe@addperiod}}
+\makeatother
+
+\RequirePackage{authblk}
+\renewcommand{\Affilfont}{\small}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Cassirer: citation shortcuts and terminology
+%  (\SF, \DI, \DIs and \PSF are redefined in the paper's preamble)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\SF}[2]{(\cite[#1]{Cassirer1910}; tr.\ \cite*[#2]{Cassirer1923})\xspace}
+\newcommand{\SFs}[2]{\cite[#1]{Cassirer1910}; tr.\ \cite*[#2]{Cassirer1923}\xspace}
+\newcommand{\ER}[2]{(\cite[#1]{Cassirer1921}; tr.\ \cite*[#2]{Cassirer1923})\xspace}
+\newcommand{\DI}[2]{(\cite[#1]{Cassirer1936}; tr.\ \cite*[#2]{Cassirer1956})\xspace}
+\newcommand{\DIs}[2]{\cite[#1]{Cassirer1936}; tr.\ \cite*[#2]{Cassirer1956}\xspace}
+\newcommand{\PSF}[2]{(\cite[#1]{Cassirer1929}; tr.\ \cite*[#2]{Cassirer1957})\xspace}
+
+\newcommand{\SFt}{\citetitle{Cassirer1910}\xspace}
+\newcommand{\EPt}{\citetitle{Cassirer1906a}\xspace}
+
+\newcommand{\FCs}{function-concepts\xspace}
+\newcommand{\SCs}{substance-concepts\xspace}
+\newcommand{\SB}{\german{Substanzbegriff}\xspace}
+
+\frenchspacing
+
+\endinput
