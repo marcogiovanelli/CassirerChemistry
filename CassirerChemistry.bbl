@@ -80,6 +80,53 @@
       \field{enddateera}{ce}
       \field{dateera}{ce}
     \endentry
+    \entry{ECW}{book}{skipbib=true}
+      \name{author}{1}{}{%
+        {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
+           family={Cassirer},
+           familyi={C\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6f02e83c28f7e177018635e731aa293a}{%
+           family={Recki},
+           familyi={R\bibinitperiod},
+           given={Birgit},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Meiner}%
+      }
+      \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{bibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{editorbibnamehash}{6f02e83c28f7e177018635e731aa293a}
+      \strng{editornamehash}{6f02e83c28f7e177018635e731aa293a}
+      \strng{editorfullhash}{6f02e83c28f7e177018635e731aa293a}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{endyear}{2009}
+      \field{langid}{german}
+      \field{shorthand}{ECW}
+      \field{subtitle}{Hamburger Ausgabe}
+      \field{title}{Gesammelte Werke}
+      \field{volumes}{26}
+      \field{year}{1998}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+    \endentry
   \enddatalist
   \datalist[entry]{cms/global//global/global}
     \entry{Arnesano2025}{article}{}
@@ -687,6 +734,53 @@
       \field{title}{Nachgelassene Manuskripte und Texte}
       \field{volumes}{19}
       \field{year}{1995}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ECW}{book}{skipbib=true}
+      \name{author}{1}{}{%
+        {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
+           family={Cassirer},
+           familyi={C\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6f02e83c28f7e177018635e731aa293a}{%
+           family={Recki},
+           familyi={R\bibinitperiod},
+           given={Birgit},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Meiner}%
+      }
+      \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{bibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{editorbibnamehash}{6f02e83c28f7e177018635e731aa293a}
+      \strng{editornamehash}{6f02e83c28f7e177018635e731aa293a}
+      \strng{editorfullhash}{6f02e83c28f7e177018635e731aa293a}
+      \field{extraname}{12}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{endyear}{2009}
+      \field{langid}{german}
+      \field{shorthand}{ECW}
+      \field{subtitle}{Hamburger Ausgabe}
+      \field{title}{Gesammelte Werke}
+      \field{volumes}{26}
+      \field{year}{1998}
       \field{enddateera}{ce}
       \field{dateera}{ce}
     \endentry
