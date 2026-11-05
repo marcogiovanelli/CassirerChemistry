@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.21)  3 NOV 2026 21:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.21)  5 NOV 2026 09:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1601,34 +1601,31 @@ Package biblatex Info: Resetting trackers on input line 41.
 }{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/t
 exlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] [6] [7] [8] [9] [10] 
 [11]
-Package biblatex Info: Resetting trackers on input line 170.
+Package biblatex Info: Resetting trackers on input line 175.
  [12]
-Overfull \hbox (2.21954pt too wide) in paragraph at lines 196--199
+Overfull \hbox (2.21954pt too wide) in paragraph at lines 201--204
 \T1/lmr/m/n/12 (-20) whose values differ from one gaseous substance to another 
 (see []Cassirer [][]1936a[][], 107--08/85--
  []
 
 [13{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 [14]
-Package biblatex Info: Resetting trackers on input line 280.
+Package biblatex Info: Resetting trackers on input line 285.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\citetitle' on input line 290.
+(hyperref)                removing `\citetitle' on input line 295.
 
 [15] [16] [17]
-Package biblatex Info: Resetting trackers on input line 313.
+Package biblatex Info: Resetting trackers on input line 318.
  [18] [19]
-Package biblatex Info: Resetting trackers on input line 333.
-Package biblatex Info: Resetting trackers on input line 333.
+Package biblatex Info: Resetting trackers on input line 338.
+Package biblatex Info: Resetting trackers on input line 338.
  [20] [21] (./CassirerChemistry.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1644,11 +1641,11 @@ Package logreq Info: Writing requests to 'CassirerChemistry.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44212 strings out of 474116
- 876631 string characters out of 5743682
- 2181921 words of memory out of 5000000
- 65470 multiletter control sequences out of 15000+600000
- 636866 words of font info for 227 fonts, out of 8000000 for 9000
+ 44222 strings out of 474116
+ 876747 string characters out of 5743682
+ 2182004 words of memory out of 5000000
+ 65478 multiletter control sequences out of 15000+600000
+ 636949 words of font info for 228 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
  132i,11n,135p,2803b,6008s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1671,10 +1668,10 @@ ocal/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
 f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/fon
 ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
 ublic/lm/lmtt10.pfb>
-Output written on CassirerChemistry.pdf (21 pages, 366888 bytes).
+Output written on CassirerChemistry.pdf (21 pages, 367234 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
+ 488 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
  114 named destinations out of 1000 (max. 500000)
  37461 words of extra memory for PDF output out of 42996 (max. 10000000)
 

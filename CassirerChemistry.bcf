@@ -5170,18 +5170,18 @@
     <bcf:citekey order="201" intorder="1">Cassirer1911a</bcf:citekey>
     <bcf:citekey order="202" intorder="1">Cassirer1910</bcf:citekey>
     <bcf:citekey order="203" intorder="1">Cassirer1906a</bcf:citekey>
-    <bcf:citekey order="204" intorder="1">Ostwald1906Leitlinien</bcf:citekey>
-    <bcf:citekey order="205" intorder="1">Cassirer1911a</bcf:citekey>
-    <bcf:citekey order="206" intorder="1">Cassirer1906a</bcf:citekey>
+    <bcf:citekey order="204" intorder="1">Cassirer1911a</bcf:citekey>
+    <bcf:citekey order="205" intorder="1">Cassirer1906a</bcf:citekey>
+    <bcf:citekey order="206" intorder="1">ECN</bcf:citekey>
     <bcf:citekey order="207" intorder="1">ECN</bcf:citekey>
-    <bcf:citekey order="208" intorder="1">ECN</bcf:citekey>
-    <bcf:citekey order="209" intorder="1">Perrin1910</bcf:citekey>
-    <bcf:citekey order="210" intorder="1">ECN</bcf:citekey>
-    <bcf:citekey order="211" intorder="1">Cassirer1921</bcf:citekey>
-    <bcf:citekey order="212" intorder="1">Cassirer1923</bcf:citekey>
-    <bcf:citekey order="213" intorder="1">Cassirer1921</bcf:citekey>
-    <bcf:citekey order="214" intorder="1">Cassirer1923</bcf:citekey>
-    <bcf:citekey order="215" intorder="1">Cassirer1929</bcf:citekey>
+    <bcf:citekey order="208" intorder="1">Perrin1910</bcf:citekey>
+    <bcf:citekey order="209" intorder="1">ECN</bcf:citekey>
+    <bcf:citekey order="210" intorder="1">Cassirer1921</bcf:citekey>
+    <bcf:citekey order="211" intorder="1">Cassirer1923</bcf:citekey>
+    <bcf:citekey order="212" intorder="1">Cassirer1921</bcf:citekey>
+    <bcf:citekey order="213" intorder="1">Cassirer1923</bcf:citekey>
+    <bcf:citekey order="214" intorder="1">Cassirer1929</bcf:citekey>
+    <bcf:citekey order="215" intorder="1">Cassirer1936</bcf:citekey>
     <bcf:citekey order="216" intorder="1">Cassirer1936</bcf:citekey>
     <bcf:citekey order="217" intorder="1">Cassirer1936</bcf:citekey>
     <bcf:citekey order="218" intorder="1">Cassirer1936</bcf:citekey>
@@ -5192,16 +5192,15 @@
     <bcf:citekey order="223" intorder="1">Cassirer1936</bcf:citekey>
     <bcf:citekey order="224" intorder="1">Cassirer1936</bcf:citekey>
     <bcf:citekey order="225" intorder="1">Cassirer1936</bcf:citekey>
-    <bcf:citekey order="226" intorder="1">Cassirer1936</bcf:citekey>
-    <bcf:citekey order="227" intorder="1">ECW</bcf:citekey>
-    <bcf:citekey order="228" intorder="1">ECN</bcf:citekey>
+    <bcf:citekey order="226" intorder="1">ECW</bcf:citekey>
+    <bcf:citekey order="227" intorder="1">ECN</bcf:citekey>
+    <bcf:citekey order="228" intorder="1">ECW</bcf:citekey>
     <bcf:citekey order="229" intorder="1">ECW</bcf:citekey>
     <bcf:citekey order="230" intorder="1">ECW</bcf:citekey>
     <bcf:citekey order="231" intorder="1">ECW</bcf:citekey>
     <bcf:citekey order="232" intorder="1">ECW</bcf:citekey>
     <bcf:citekey order="233" intorder="1">ECW</bcf:citekey>
     <bcf:citekey order="234" intorder="1">ECW</bcf:citekey>
-    <bcf:citekey order="235" intorder="1">ECW</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">
