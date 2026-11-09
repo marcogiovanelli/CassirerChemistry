@@ -329,6 +329,35 @@
       \verb 10.1016/B978-0-444-51675-6.50002-5
       \endverb
     \endentry
+    \entry{Buek1904}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=3624fe1e7bf8f53a521b1b7bb213d2dd}{%
+           family={Buek},
+           familyi={B\bibinitperiod},
+           given={Otto},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Marburg}%
+      }
+      \strng{namehash}{3624fe1e7bf8f53a521b1b7bb213d2dd}
+      \strng{fullhash}{3624fe1e7bf8f53a521b1b7bb213d2dd}
+      \strng{bibnamehash}{3624fe1e7bf8f53a521b1b7bb213d2dd}
+      \strng{authorbibnamehash}{3624fe1e7bf8f53a521b1b7bb213d2dd}
+      \strng{authornamehash}{3624fe1e7bf8f53a521b1b7bb213d2dd}
+      \strng{authorfullhash}{3624fe1e7bf8f53a521b1b7bb213d2dd}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{german}
+      \field{title}{Die Atomistik und Faradays Begriff der Materie}
+      \field{type}{phdthesis}
+      \field{year}{1904}
+      \field{dateera}{ce}
+    \endentry
     \entry{Cassirer1906a}{book}{}
       \name{author}{1}{}{%
         {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
@@ -456,7 +485,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\repr{ECW}{\V{6}}}
+      \field{addendum}{\repr{ECW}{\V{6}}. English translation: \emph{Substance and Function, and Einstein's Theory of Relativity}, trans.\ by William Curtis Swabey and Marie Collins Swabey (Chicago and London: Open Court, 1923), 3--346}
       \field{langid}{german}
       \field{subtitle}{Untersuchungen über die Grundfragen der Erkenntniskritik}
       \field{title}{Substanzbegriff und Funktionsbegriff}
@@ -526,59 +555,11 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\repr{ECW}{\V{10}}}
+      \field{addendum}{\repr{ECW}{\V{10}}. English translation: \emph{Substance and Function, and Einstein's Theory of Relativity}, trans.\ by William Curtis Swabey and Marie Collins Swabey (Chicago and London: Open Court, 1923), 347--460}
       \field{langid}{german}
       \field{subtitle}{Erkenntnistheoretische Betrachtungen}
       \field{title}{Zur {E}instein'schen Relativitätstheorie}
       \field{year}{1921}
-      \field{dateera}{ce}
-    \endentry
-    \entry{Cassirer1923}{book}{}
-      \name{author}{1}{}{%
-        {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
-           family={Cassirer},
-           familyi={C\bibinitperiod},
-           given={Ernst},
-           giveni={E\bibinitperiod}}}%
-      }
-      \name{translator}{2}{}{%
-        {{hash=caa78a762e380559f33618860a128b3d}{%
-           family={Swabey},
-           familyi={S\bibinitperiod},
-           given={William\bibnamedelima Curtis},
-           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=dc15301e8dc3e2c6fcc67c850e1bd688}{%
-           family={Swabey},
-           familyi={S\bibinitperiod},
-           given={Marie\bibnamedelima Collins},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{location}{2}{%
-        {Chicago}%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Open Court}%
-      }
-      \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{bibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \strng{translatorbibnamehash}{ad2dd1af3bfbe0fb4c8bd6c2bc898eb1}
-      \strng{translatornamehash}{ad2dd1af3bfbe0fb4c8bd6c2bc898eb1}
-      \strng{translatorfullhash}{ad2dd1af3bfbe0fb4c8bd6c2bc898eb1}
-      \field{extraname}{7}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{Substance and Function, and {E}instein's Theory of Relativity}
-      \field{year}{1923}
       \field{dateera}{ce}
     \endentry
     \entry{Cassirer1929}{book}{}
@@ -601,14 +582,14 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{8}
+      \field{extraname}{7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\repr{ECW}{\V{13}}}
+      \field{addendum}{\repr{ECW}{\V{13}}. English translation: \emph{The Philosophy of Symbolic Forms}, vol.~3, \emph{The Phenomenology of Knowledge}, trans.\ by Ralph Manheim (New Haven: Yale University Press, 1957)}
       \field{langid}{german}
       \field{title}{Philosophie der symbolischen Formen}
       \field{titleaddon}{Dritter Teil: Phänomenologie der Erkenntnis}
@@ -629,7 +610,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{9}
+      \field{extraname}{8}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{1}
@@ -637,7 +618,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
-      \field{addendum}{\repr{ECW}{\V{19}}}
+      \field{addendum}{\repr{ECW}{\V{19}}. English translation: \emph{Determinism and Indeterminism in Modern Physics: Historical and Systematic Studies of the Problem of Causality}, trans.\ by O.~Theodor Benfey (New Haven: Yale University Press, 1956)}
       \field{journaltitle}{Göteborgs {H}ögskolas {Å}rsskrift}
       \field{langid}{german}
       \field{number}{3}
@@ -662,7 +643,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{10}
+      \field{extraname}{9}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{2}
@@ -721,7 +702,7 @@
       \strng{editorbibnamehash}{6efa003364255ad27b14535b9e4faa40}
       \strng{editornamehash}{9edbc1946636f489633cc86b5ee05a45}
       \strng{editorfullhash}{9edbc1946636f489633cc86b5ee05a45}
-      \field{extraname}{11}
+      \field{extraname}{10}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -767,7 +748,7 @@
       \strng{editorbibnamehash}{6f02e83c28f7e177018635e731aa293a}
       \strng{editornamehash}{6f02e83c28f7e177018635e731aa293a}
       \strng{editorfullhash}{6f02e83c28f7e177018635e731aa293a}
-      \field{extraname}{12}
+      \field{extraname}{11}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -848,6 +829,57 @@
       \field{title}{La théorie physique, son objet et sa structure}
       \field{year}{1906}
       \field{dateera}{ce}
+    \endentry
+    \entry{Ferrari2015}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=139718cf6adb7d3543c59c0d23aa7368}{%
+           family={Ferrari},
+           familyi={F\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=9bb4afdac4d75a55d5ac6f62dc8078b4}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi Tyler},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9dc80940d7d336fcd3f492a1755ad4f6}{%
+           family={Luft},
+           familyi={L\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Berlin}%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter}%
+      }
+      \strng{namehash}{139718cf6adb7d3543c59c0d23aa7368}
+      \strng{fullhash}{139718cf6adb7d3543c59c0d23aa7368}
+      \strng{bibnamehash}{139718cf6adb7d3543c59c0d23aa7368}
+      \strng{authorbibnamehash}{139718cf6adb7d3543c59c0d23aa7368}
+      \strng{authornamehash}{139718cf6adb7d3543c59c0d23aa7368}
+      \strng{authorfullhash}{139718cf6adb7d3543c59c0d23aa7368}
+      \strng{editorbibnamehash}{4774c8156df0761abb6fd60247bf1559}
+      \strng{editornamehash}{4774c8156df0761abb6fd60247bf1559}
+      \strng{editorfullhash}{4774c8156df0761abb6fd60247bf1559}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booksubtitle}{A Novel Assessment}
+      \field{booktitle}{The Philosophy of {E}rnst {C}assirer}
+      \field{langid}{englush}
+      \field{title}{Cassirer and the History of Science}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{261\bibrangedash 284}
+      \range{pages}{24}
     \endentry
     \entry{Freind1709}{book}{}
       \name{author}{1}{}{%
@@ -1035,6 +1067,73 @@
       \field{title}{{Vorträge über die Entwicklungsgeschichte der Chemie von Lavoisier bis zur Gegenwart}}
       \field{year}{1902}
     \endentry
+    \entry{Lange1873}{book}{}
+      \name{author}{1}{}{%
+        {{hash=15f4f759bff743b706a3b9c42c343e45}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Friedrich\bibnamedelima Albert},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Leipzig}%
+      }
+      \list{publisher}{1}{%
+        {Baedeker}%
+      }
+      \strng{namehash}{15f4f759bff743b706a3b9c42c343e45}
+      \strng{fullhash}{15f4f759bff743b706a3b9c42c343e45}
+      \strng{bibnamehash}{15f4f759bff743b706a3b9c42c343e45}
+      \strng{authorbibnamehash}{15f4f759bff743b706a3b9c42c343e45}
+      \strng{authornamehash}{15f4f759bff743b706a3b9c42c343e45}
+      \strng{authorfullhash}{15f4f759bff743b706a3b9c42c343e45}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{german}
+      \field{shorttitle}{Geschichte des Materialismus}
+      \field{title}{Geschichte des Materialismus bis auf {K}ant}
+      \field{volume}{1}
+      \field{year}{1873}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Lasswitz1890}{book}{}
+      \name{author}{1}{}{%
+        {{hash=275b33425afd65f2a533dc5e45d0af9a}{%
+           family={Lasswitz},
+           familyi={L\bibinitperiod},
+           given={Kurd},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Hamburg}%
+        {Leipzig}%
+      }
+      \list{publisher}{1}{%
+        {Voss}%
+      }
+      \strng{namehash}{275b33425afd65f2a533dc5e45d0af9a}
+      \strng{fullhash}{275b33425afd65f2a533dc5e45d0af9a}
+      \strng{bibnamehash}{275b33425afd65f2a533dc5e45d0af9a}
+      \strng{authorbibnamehash}{275b33425afd65f2a533dc5e45d0af9a}
+      \strng{authornamehash}{275b33425afd65f2a533dc5e45d0af9a}
+      \strng{authorfullhash}{275b33425afd65f2a533dc5e45d0af9a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{german}
+      \field{title}{Geschichte der Atomistik vom Mittelalter bis Newton}
+      \field{volumes}{2}
+      \field{year}{1890}
+      \field{dateera}{ce}
+    \endentry
     \entry{Meyer1884}{book}{}
       \name{author}{1}{}{%
         {{hash=26cfa91152a5e9311f41464fd0202a44}{%
@@ -1129,6 +1228,60 @@
       \field{pages}{100\bibrangedash 129}
       \range{pages}{30}
     \endentry
+    \entry{Meyerson2011}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=7b6607e6cf1818066d3ff7af9843ba6d}{%
+           family={Meyerson},
+           familyi={M\bibinitperiod},
+           given={Émile},
+           giveni={É\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=9bec8e3cc6e3ef9a46d83f79d80f910f}{%
+           family={Telkes-Klein},
+           familyi={T\bibinithyphendelim K\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4e2830d1d267677926747bcb6725548e}{%
+           family={Bensaude-Vincent},
+           familyi={B\bibinithyphendelim V\bibinitperiod},
+           given={Bernadette},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Honoré Champion}%
+      }
+      \strng{namehash}{7b6607e6cf1818066d3ff7af9843ba6d}
+      \strng{fullhash}{7b6607e6cf1818066d3ff7af9843ba6d}
+      \strng{bibnamehash}{7b6607e6cf1818066d3ff7af9843ba6d}
+      \strng{authorbibnamehash}{7b6607e6cf1818066d3ff7af9843ba6d}
+      \strng{authornamehash}{7b6607e6cf1818066d3ff7af9843ba6d}
+      \strng{authorfullhash}{7b6607e6cf1818066d3ff7af9843ba6d}
+      \strng{editorbibnamehash}{d0a5a56c69645079e80efe5c6bb7c033}
+      \strng{editornamehash}{d0a5a56c69645079e80efe5c6bb7c033}
+      \strng{editorfullhash}{d0a5a56c69645079e80efe5c6bb7c033}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booksubtitle}{Petites pièces inédites}
+      \field{booktitle}{Mélanges}
+      \field{isbn}{978-2-7453-2105-3}
+      \field{langid}{french}
+      \field{number}{43}
+      \field{series}{Bibliothèque d'études juives}
+      \field{title}{La philosophie des sciences en Allemagne}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{184\bibrangedash 215}
+      \range{pages}{32}
+    \endentry
     \entry{Natorp1910a}{book}{}
       \name{author}{1}{}{%
         {{hash=ee1f570052fff2813890d378587c79ef}{%
@@ -1160,6 +1313,41 @@
       \field{title}{Die logischen Grundlagen der exakten Wissenschaften}
       \field{year}{1910}
       \field{dateera}{ce}
+    \endentry
+    \entry{Needham2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fcc627114c60c8fc33325f09d98150af}{%
+           family={Needham},
+           familyi={N\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcc627114c60c8fc33325f09d98150af}
+      \strng{fullhash}{fcc627114c60c8fc33325f09d98150af}
+      \strng{bibnamehash}{fcc627114c60c8fc33325f09d98150af}
+      \strng{authorbibnamehash}{fcc627114c60c8fc33325f09d98150af}
+      \strng{authornamehash}{fcc627114c60c8fc33325f09d98150af}
+      \strng{authorfullhash}{fcc627114c60c8fc33325f09d98150af}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{5}
+      \field{subtitle}{{Duhem}'s Argument}
+      \field{title}{Resisting Chemical Atomism}
+      \field{volume}{75}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{921\bibrangedash 931}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1086/594535
+      \endverb
     \endentry
     \entry{Nernst1896}{book}{}
       \name{author}{1}{}{%
@@ -1295,6 +1483,39 @@
       \field{pages}{265\bibrangedash 302}
       \range{pages}{38}
     \endentry
+    \entry{Portu1904}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c16e92751d8ced4e2d611ee1ab55526d}{%
+           family={Portu},
+           familyi={P\bibinitperiod},
+           given={Enrico\bibnamedelimb Stefano\bibnamedelima Maria},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Marburg}%
+      }
+      \list{publisher}{1}{%
+        {Elwert}%
+      }
+      \strng{namehash}{c16e92751d8ced4e2d611ee1ab55526d}
+      \strng{fullhash}{c16e92751d8ced4e2d611ee1ab55526d}
+      \strng{bibnamehash}{c16e92751d8ced4e2d611ee1ab55526d}
+      \strng{authorbibnamehash}{c16e92751d8ced4e2d611ee1ab55526d}
+      \strng{authornamehash}{c16e92751d8ced4e2d611ee1ab55526d}
+      \strng{authorfullhash}{c16e92751d8ced4e2d611ee1ab55526d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{german}
+      \field{title}{{G}alileis Begriff der Wissenschaft}
+      \field{year}{1904}
+      \field{dateera}{ce}
+    \endentry
     \entry{Reck2020}{incollection}{}
       \name{author}{1}{}{%
         {{hash=3ce0218d7f8e253406c023b20326ce9e}{%
@@ -1413,43 +1634,6 @@
       \field{year}{1984}
       \field{dateera}{ce}
     \endentry
-    \entry{Rocke2010}{book}{}
-      \name{author}{1}{}{%
-        {{hash=00a9f908d9fd03e4566e134df84a5bb1}{%
-           family={Rocke},
-           familyi={R\bibinitperiod},
-           given={Alan\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{location}{2}{%
-        {Chicago}%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {University of Chicago Press}%
-      }
-      \strng{namehash}{00a9f908d9fd03e4566e134df84a5bb1}
-      \strng{fullhash}{00a9f908d9fd03e4566e134df84a5bb1}
-      \strng{bibnamehash}{00a9f908d9fd03e4566e134df84a5bb1}
-      \strng{authorbibnamehash}{00a9f908d9fd03e4566e134df84a5bb1}
-      \strng{authornamehash}{00a9f908d9fd03e4566e134df84a5bb1}
-      \strng{authorfullhash}{00a9f908d9fd03e4566e134df84a5bb1}
-      \field{extraname}{2}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-226-72332-7}
-      \field{langid}{english}
-      \field{pagetotal}{xxvi+375}
-      \field{series}{Synthesis}
-      \field{subtitle}{Kekulé, Kopp, and the Scientific Imagination}
-      \field{title}{Image and Reality}
-      \field{year}{2010}
-      \field{dateera}{ce}
-    \endentry
     \entry{Rocke2021}{incollection}{}
       \name{author}{1}{}{%
         {{hash=00a9f908d9fd03e4566e134df84a5bb1}{%
@@ -1477,7 +1661,7 @@
       \strng{editorbibnamehash}{9e46dfc9d9bb576dbb375681710a13a6}
       \strng{editornamehash}{9e46dfc9d9bb576dbb375681710a13a6}
       \strng{editorfullhash}{9e46dfc9d9bb576dbb375681710a13a6}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
