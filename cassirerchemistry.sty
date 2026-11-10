@@ -173,7 +173,6 @@
 \RequirePackage{amsmath}
 \RequirePackage[citebordercolor=b,linkbordercolor=b]{hyperref}
 \hypersetup{
-  pdfauthor={Matteo Broggio and Marco Giovanelli},
   colorlinks=true,
   linkcolor=b,
   linkbordercolor=b,
@@ -360,6 +359,15 @@
 
 \RequirePackage{authblk}
 \renewcommand{\Affilfont}{\small}
+
+ \newcommand{\sep}{\unskip~\textbullet~}%
+
+\newenvironment{keywords}{%
+  
+\footnotesize  \noindent\textit{Keywords: }
+  \raggedright                         % Keywords are not justified.
+  }
+%\def\endkeyword{\par \egroup}   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Cassirer and Meyerson: citation shortcuts and terminology

@@ -358,6 +358,52 @@
       \field{year}{1904}
       \field{dateera}{ce}
     \endentry
+    \entry{Carrier2001}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=49590e488c0d469dd9813a03dd666d40}{%
+           family={Carrier},
+           familyi={C\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9f5f16da879bb16dfb96a8135b7045af}{%
+           family={Watkins},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{49590e488c0d469dd9813a03dd666d40}
+      \strng{fullhash}{49590e488c0d469dd9813a03dd666d40}
+      \strng{bibnamehash}{49590e488c0d469dd9813a03dd666d40}
+      \strng{authorbibnamehash}{49590e488c0d469dd9813a03dd666d40}
+      \strng{authornamehash}{49590e488c0d469dd9813a03dd666d40}
+      \strng{authorfullhash}{49590e488c0d469dd9813a03dd666d40}
+      \strng{editorbibnamehash}{9f5f16da879bb16dfb96a8135b7045af}
+      \strng{editornamehash}{9f5f16da879bb16dfb96a8135b7045af}
+      \strng{editorfullhash}{9f5f16da879bb16dfb96a8135b7045af}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Kant and the Sciences}
+      \field{langid}{english}
+      \field{title}{{K}ant's Theory of Matter and His Views on Chemistry}
+      \field{volume}{205-231}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1093/0195133056.003.0011
+      \endverb
+    \endentry
     \entry{Cassirer1906a}{book}{}
       \name{author}{1}{}{%
         {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
@@ -446,6 +492,7 @@
       \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -457,6 +504,40 @@
       \field{volume}{2}
       \field{year}{1907}
       \field{dateera}{ce}
+    \endentry
+    \entry{Cassirer1907a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1da1dc5b6d5586659bc1cb805095761f}{%
+           family={Cassirer},
+           familyi={C\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{fullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{bibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
+      \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
+      \field{extraname}{4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{addendum}{\repr{ECW}{\VP{9}{37-82}}}
+      \field{journaltitle}{Kant-Studien}
+      \field{langid}{German}
+      \field{number}{1-3}
+      \field{subtitle}{(Mit Bezug auf {B}ertrand {R}ussells und {L}ouis {C}outurats Werke über die Prinzipien der Mathematik)}
+      \field{title}{Kant und die moderne Mathematik}
+      \field{volume}{12}
+      \field{year}{1907}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 49}
+      \range{pages}{49}
     \endentry
     \entry{Cassirer1910}{book}{}
       \name{author}{1}{}{%
@@ -478,7 +559,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -512,7 +593,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -548,7 +629,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -582,7 +663,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -610,7 +691,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{1}
@@ -643,7 +724,7 @@
       \strng{authorbibnamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authornamehash}{1da1dc5b6d5586659bc1cb805095761f}
       \strng{authorfullhash}{1da1dc5b6d5586659bc1cb805095761f}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{2}
@@ -702,7 +783,7 @@
       \strng{editorbibnamehash}{6efa003364255ad27b14535b9e4faa40}
       \strng{editornamehash}{9edbc1946636f489633cc86b5ee05a45}
       \strng{editorfullhash}{9edbc1946636f489633cc86b5ee05a45}
-      \field{extraname}{10}
+      \field{extraname}{11}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -748,7 +829,7 @@
       \strng{editorbibnamehash}{6f02e83c28f7e177018635e731aa293a}
       \strng{editornamehash}{6f02e83c28f7e177018635e731aa293a}
       \strng{editorfullhash}{6f02e83c28f7e177018635e731aa293a}
-      \field{extraname}{11}
+      \field{extraname}{12}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -1677,6 +1758,45 @@
       \field{pages}{41\bibrangedash 64}
       \range{pages}{24}
     \endentry
+    \entry{Ryckman1991}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1bd46d0bafee85d8802ea4de6667d24a}{%
+           family={Ryckman},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{1bd46d0bafee85d8802ea4de6667d24a}
+      \strng{fullhash}{1bd46d0bafee85d8802ea4de6667d24a}
+      \strng{bibnamehash}{1bd46d0bafee85d8802ea4de6667d24a}
+      \strng{authorbibnamehash}{1bd46d0bafee85d8802ea4de6667d24a}
+      \strng{authornamehash}{1bd46d0bafee85d8802ea4de6667d24a}
+      \strng{authorfullhash}{1bd46d0bafee85d8802ea4de6667d24a}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Synthese}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Conditio sine qua non? \textit{{Z}uordnung} in the Early Epistemologies of {C}assirer and {S}chlick}
+      \field{volume}{88}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{57\bibrangedash 95}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1007/bf00540093
+      \endverb
+    \endentry
     \entry{Ryckman2005}{book}{}
       \name{author}{1}{}{%
         {{hash=1bd46d0bafee85d8802ea4de6667d24a}{%
@@ -1698,6 +1818,7 @@
       \strng{authorbibnamehash}{1bd46d0bafee85d8802ea4de6667d24a}
       \strng{authornamehash}{1bd46d0bafee85d8802ea4de6667d24a}
       \strng{authorfullhash}{1bd46d0bafee85d8802ea4de6667d24a}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}

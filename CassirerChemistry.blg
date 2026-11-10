@@ -1,21 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'CassirerChemistry.blg'
-[35] biber-darwin:340> INFO - === Mon Nov  9, 2026, 22:45:29
-[46] Biber.pm:419> INFO - Reading 'CassirerChemistry.bcf'
-[135] Biber.pm:979> INFO - Found 46 citekeys in bib section 0
-[146] Biber.pm:4419> INFO - Processing section 0
-[151] Biber.pm:4610> INFO - Looking for bibtex file 'CassirerChemistry.bib' for section 0
-[153] bibtex.pm:1713> INFO - LaTeX decoding ...
-[181] bibtex.pm:1519> INFO - Found BibTeX data source 'CassirerChemistry.bib'
-[309] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[309] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[309] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[309] Biber.pm:4239> INFO - Sorting list 'shorthand:shorthand/global//global/global' of type 'list' with template 'shorthand' and locale 'en-US'
-[309] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[334] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[334] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[334] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[334] Biber.pm:4239> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
-[334] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[351] bbl.pm:660> INFO - Writing 'CassirerChemistry.bbl' with encoding 'UTF-8'
-[361] bbl.pm:763> INFO - Output to CassirerChemistry.bbl
+[34] biber-darwin:340> INFO - === Tue Nov 10, 2026, 11:14:49
+[45] Biber.pm:419> INFO - Reading 'CassirerChemistry.bcf'
+[149] Biber.pm:979> INFO - Found 49 citekeys in bib section 0
+[160] Biber.pm:4419> INFO - Processing section 0
+[167] Biber.pm:4610> INFO - Looking for bibtex file 'CassirerChemistry.bib' for section 0
+[169] bibtex.pm:1713> INFO - LaTeX decoding ...
+[200] bibtex.pm:1519> INFO - Found BibTeX data source 'CassirerChemistry.bib'
+[350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[351] Biber.pm:4239> INFO - Sorting list 'shorthand:shorthand/global//global/global' of type 'list' with template 'shorthand' and locale 'en-US'
+[351] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[378] Biber.pm:4239> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[378] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[398] bbl.pm:660> INFO - Writing 'CassirerChemistry.bbl' with encoding 'UTF-8'
+[409] bbl.pm:763> INFO - Output to CassirerChemistry.bbl
