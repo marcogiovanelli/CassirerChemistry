@@ -1148,7 +1148,7 @@
       \field{title}{{Vorträge über die Entwicklungsgeschichte der Chemie von Lavoisier bis zur Gegenwart}}
       \field{year}{1902}
     \endentry
-    \entry{Lange1873}{book}{}
+    \entry{Lange1882}{book}{}
       \name{author}{1}{}{%
         {{hash=15f4f759bff743b706a3b9c42c343e45}{%
            family={Lange},
@@ -1156,8 +1156,15 @@
            given={Friedrich\bibnamedelima Albert},
            giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
+      \name{editor}{1}{}{%
+        {{hash=6f6223178f68304708c6af2856a1c6f8}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Hermann},
+           giveni={H\bibinitperiod}}}%
+      }
       \list{location}{1}{%
-        {Leipzig}%
+        {Iserlohn}%
       }
       \list{publisher}{1}{%
         {Baedeker}%
@@ -1168,18 +1175,20 @@
       \strng{authorbibnamehash}{15f4f759bff743b706a3b9c42c343e45}
       \strng{authornamehash}{15f4f759bff743b706a3b9c42c343e45}
       \strng{authorfullhash}{15f4f759bff743b706a3b9c42c343e45}
+      \strng{editorbibnamehash}{6f6223178f68304708c6af2856a1c6f8}
+      \strng{editornamehash}{6f6223178f68304708c6af2856a1c6f8}
+      \strng{editorfullhash}{6f6223178f68304708c6af2856a1c6f8}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{edition}{2}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
       \field{langid}{german}
-      \field{shorttitle}{Geschichte des Materialismus}
-      \field{title}{Geschichte des Materialismus bis auf {K}ant}
-      \field{volume}{1}
-      \field{year}{1873}
+      \field{title}{Geschichte des Materialismus und Kritik seiner Bedeutung in der Gegenwart}
+      \field{volumes}{2}
+      \field{year}{1882}
       \field{dateera}{ce}
     \endentry
     \entry{Lasswitz1890}{book}{}
