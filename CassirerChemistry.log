@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.21)  10 NOV 2026 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.21)  11 NOV 2026 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1532,8 +1532,18 @@ isodate: babel.sty has been loaded
 
 Package chemgreek Info: Activating mapping `default' on line 39.
 
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+1.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
 9.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1627,18 +1637,26 @@ Package biblatex Info: Resetting trackers on input line 382.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `CassirerChemistry.out' has not changed.
 (rerunfilecheck)             Checksum: D00E6B4B3F10CD9910F4BAF64A2039CD;2341.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'CassirerChemistry.run.xml'.
 \openout1 = `CassirerChemistry.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44330 strings out of 474116
- 879445 string characters out of 5743682
- 2183193 words of memory out of 5000000
- 65560 multiletter control sequences out of 15000+600000
- 634532 words of font info for 233 fonts, out of 8000000 for 9000
+ 44385 strings out of 474116
+ 880335 string characters out of 5743682
+ 2183539 words of memory out of 5000000
+ 65607 multiletter control sequences out of 15000+600000
+ 638007 words of font info for 237 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
  132i,11n,135p,2815b,6008s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1659,11 +1677,12 @@ ic/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17
 ocal/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2024/texm
 f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/fon
-ts/type1/public/lm/lmsy10.pfb>
-Output written on CassirerChemistry.pdf (22 pages, 351131 bytes).
+ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
+ublic/lm/lmtt10.pfb>
+Output written on CassirerChemistry.pdf (22 pages, 373950 bytes).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 465 compressed objects within 5 object streams
+ 528 PDF objects out of 1000 (max. 8388607)
+ 468 compressed objects within 5 object streams
  124 named destinations out of 1000 (max. 500000)
- 36949 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 39509 words of extra memory for PDF output out of 42996 (max. 10000000)
 
